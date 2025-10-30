@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include<math.h>
+int main()
+{
+    int r,Area;
+    printf("Enter a radius:");
+    scanf("%d",&r);
+    Area=M_PI*r*r;
+    printf("Area of circle %d",Area);
+    return 0;
+}
